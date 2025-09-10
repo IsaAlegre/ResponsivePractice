@@ -1,0 +1,19 @@
+Actividad aulica
+
+¿Qué diferencias notaron en la experiencia de usuario entre ambos diseños?
+Las diferencias que note fueron que: 
+- El primero es adaptativo, el cambio es brusco. La página "salta" a un nuevo diseño al cruzar ciertos tamaños de pantalla.
+- El segundo es responsivo, el cambio es fluido. La página se reajusta suavemente sin importar el tamaño de la pantalla.
+
+¿Qué ventajas y desventajas vieron en cada enfoque?
+Adaptativo:
+- Ventaja: Tienes control total sobre cómo se ve en los 3 o 4 tamaños que definas.
+- Desventaja: En tamaños intermedios, puede verse mal o desaprovechado.
+
+Responsivo:
+- Ventaja: Se ve bien en todos los dispositivos, incluso los que salgan en el futuro. Es más fácil de mantener.
+- Desventaja: Tienes un poco menos de control "pixel-perfect".
+
+¿En qué casos reales aplicarían uno u otro?
+Usaria el Adaptativo si la versión móvil y la de escritorio son totalmente diferentes (ej: una aplicación web muy compleja).
+Usaria el Responsivo (fluido) para casi todo lo demás. Es el estándar moderno para blogs, páginas de empresas, tiendas, etc.
