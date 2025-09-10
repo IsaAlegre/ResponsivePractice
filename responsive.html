@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo Responsivo</title>
+<style>
+body { margin: 0; font-family: sans-serif; }
+    .contenedor-flex {
+        display: flex; 
+        flex-direction: row; 
+        gap: 10px;
+    }
+
+    .caja {
+        background: lightseagreen;
+        padding: 20px; 
+        font-size: 18px; 
+        text-align: center;
+        color: white;
+        flex: 1; 
+    }
+
+    @media (max-width: 768px) {
+        .contenedor-flex {
+            flex-direction: column;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="contenedor-flex">
+        <div class="caja">Este es un diseño responsivo</div>
+        <div class="caja">cambia  ...</div>
+        <div class="caja">columnas ...</div>
+    </div>
+</body>
+</html>
